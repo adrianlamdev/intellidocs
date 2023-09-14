@@ -1,3 +1,5 @@
+import Completion from "./Completion";
+
 const Hero = () => {
   return (
     <section className="px-6">
@@ -7,10 +9,12 @@ const Hero = () => {
           Assistant.
         </h1>
         <p className="text-zinc-300">
-          IntelliDocs is a documentation assistant powered by GPT-4 to help you
-          find the right documentation for your code.
+          IntelliDocs is a documentation assistant powered by CodeLlama-2 to
+          help you find the right documentation for your code.
         </p>
       </div>
+
+      <Completion />
     </section>
   );
 };
